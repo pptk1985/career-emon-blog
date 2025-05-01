@@ -19,11 +19,11 @@
 	},
 	"top_banner": {
 		"enable": true,
-		"description": "-50% Intro price for the next 72 hours only!.",
+		"description": "プロのキャリアサポーターに相談してみる",
 		"end_link": {
-			"url": "https://themeforest.net/item/ncmaz-nextjs-headless-wordpress-blog-magazine/47815656",
-			"text": "Buy now  →",
-			"new_tab": true
+			"url": "https://career-emon.com/",
+			"text": "こちらから  →",
+			"new_tab": false
 		}
 	},
 	"top_category_section": {
@@ -32,7 +32,7 @@
 		"sub_title": "Let's explore the most popular categories"
 	},
 	"site_info": {
-		"site_title": "Ncmaz Nextjs Blog",
+		"site_title": "キャリエモン ブログ",
 		"site_description": "Ncmaz Nextjs Blog headless WordPress",
 		"site_keywords": "Ncmaz Nextjs Blog",
 		"site_author": "ChisNghiax",
