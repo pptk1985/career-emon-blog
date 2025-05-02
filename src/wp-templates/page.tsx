@@ -8,6 +8,7 @@ import { FaustTemplate, flatListToHierarchical } from '@faustwp/core'
 import { FOOTER_LOCATION, PRIMARY_LOCATION } from '@/contains/menu'
 import PageLayout from '@/container/PageLayout'
 import MyWordPressBlockViewer from '@/components/MyWordPressBlockViewer'
+import Hero from '@/components/MyComponents/Hero'
 
 const Page: FaustTemplate<GetPageQuery> = (props) => {
 	// LOADING ----------
@@ -52,20 +53,19 @@ const Page: FaustTemplate<GetPageQuery> = (props) => {
 							isGutenbergPage ? 'max-w-none' : ''
 						}`}
 					>
+						<Hero />
 						{isGutenbergPage && (
 							<h1 className="sr-only">
 								{/* @ts-ignore */}
 								{props.data?.generalSettings?.title || title || ''}
 							</h1>
 						)}
-
 						{title && !isGutenbergPage && (
 							<>
 								<EntryHeader title={title} />
 								<hr />
 							</>
 						)}
-
 						<MyWordPressBlockViewer blocks={blocks} />
 					</main>
 				</div>
