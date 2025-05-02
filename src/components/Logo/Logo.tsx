@@ -19,7 +19,7 @@ const Logo: React.FC<LogoProps> = ({ className = '', imageClassName }) => {
 
 	return (
 		<Link
-			href="/"
+			href="https://career-emon.com/"
 			className={`ttnc-logo inline-block flex-shrink-0 text-primary-600 ${className}`}
 		>
 			<MyImage

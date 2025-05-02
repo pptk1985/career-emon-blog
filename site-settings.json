@@ -3,7 +3,7 @@
 	"mailpoet_api_key": "your_mailpoet_api_key",
 	"mailpoet_list_id": "3",
 	"subcription_widget": {
-		"enable": true,
+		"enable": false,
 		"title": "Stay up to date",
 		"description": "Get notified when I publish something new, and unsubscribe at any time.",
 		"placeholder": "Enter your email address",
@@ -11,7 +11,7 @@
 		"error_message": "Something went wrong. Please try again. If the problem persists, you can contact me."
 	},
 	"newsletter_section": {
-		"enable": true,
+		"enable": false,
 		"title": "Join our newsletter 🎉",
 		"description": "Read and share new perspectives on just about any topic. Everyone’s welcome.",
 		"right_image": "/images/SVG-subcribe2.png",
@@ -19,7 +19,7 @@
 	},
 	"top_banner": {
 		"enable": true,
-		"description": "プロのキャリアサポーターに相談してみる",
+		"description": "キャリエモンで無料相談してみよう！",
 		"end_link": {
 			"url": "https://career-emon.com/",
 			"text": "こちらから  →",
@@ -44,8 +44,8 @@
 		"site_zip": "Your Zip",
 		"site_country": "Your Country",
 		"site_url": "https://www.yoursite.com",
-		"site_logo": "/logo.png",
-		"site_logo_light": "/logo-light.png",
+		"site_logo": "/logo_face.png",
+		"site_logo_light": "/logo_face.png",
 		"site_favicon": "/favicon.png"
 	},
 	"site_socials": [
@@ -108,14 +108,14 @@
 			]
 		},
 		"show_top_categories": true,
-		"show_newsletter_section": true
+		"show_newsletter_section": false
 	},
 	"archive_page": {
-		"show_newsletter_section": true,
+		"show_newsletter_section": false,
 		"show_top_categories": true
 	},
 	"author_page": {
-		"show_newsletter_section": true,
+		"show_newsletter_section": false,
 		"show_top_categories": true
 	},
 	"post_card": {
@@ -123,40 +123,40 @@
 		"show_comment_count": true
 	},
 	"submissions-settings": {
-		"enable": true,
+		"enable": false,
 		"max_categories_allowed": 3,
 		"max_tags_allowed": 5,
-		"allow_upload_media": true,
+		"allow_upload_media": false,
 		"allow_upload_media_max_size_mb": 5,
 		"post_options": [
 			{
 				"name": "Schedule_Publication",
 				"label": "Schedule Publication",
-				"enable": true
+				"enable": false
 			},
 			{
 				"name": "Post_Format",
 				"label": "Post Format",
-				"enable": true,
+				"enable": false,
 				"options": [
 					{
 						"name": "standard",
-						"enable": true,
+						"enable": false,
 						"label": "Standard"
 					},
 					{
 						"name": "gallery",
-						"enable": true,
+						"enable": false,
 						"label": "Gallery"
 					},
 					{
 						"name": "video",
-						"enable": true,
+						"enable": false,
 						"label": "Video"
 					},
 					{
 						"name": "audio",
-						"enable": true,
+						"enable": false,
 						"label": "Audio"
 					}
 				]
@@ -169,12 +169,12 @@
 			{
 				"name": "Post_Style",
 				"label": "Post Style",
-				"enable": true
+				"enable": false
 			},
 			{
 				"name": "Show_Right_Sidebar",
 				"label": "Show Right Sidebar",
-				"enable": true
+				"enable": false
 			}
 		]
 	},
@@ -216,7 +216,7 @@
 		"sub_title": "Read and share new perspectives on just about any topic. Everyone’s welcome."
 	},
 	"contact_page": {
-		"enable": true,
+		"enable": false,
 		"title": "Get in touch",
 		"sub_title": "We’d love to hear from you. Fill out the form below to get in touch with us.",
 		"form": {
@@ -251,7 +251,7 @@
 		]
 	},
 	"document_page": {
-		"enable": true,
+		"enable": false,
 		"uri": "/documents",
 		"title": "Documents",
 		"sub_title": "Read and share new perspectives on just about any topic. Everyone’s welcome."
