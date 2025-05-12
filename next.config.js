@@ -5,6 +5,7 @@ const { createSecureHeaders } = require('next-secure-headers')
  * @type {import('next').NextConfig}
  **/
 module.exports = withFaust({
+  basePath: '/blog',
 	trailingSlash: true,
 	reactStrictMode: true,
 	experimental: {
