@@ -36,6 +36,9 @@ module.exports = {
     },
 
     extend: {
+      fontFamily: {
+        zenmaru: ['ZenMaruGothic', ...defaultTheme.fontFamily.sans],
+      },
       colors: {
         primary: {
           50: customColors("--c-primary-50"),
