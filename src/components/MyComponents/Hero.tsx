@@ -1,10 +1,8 @@
 'use client'
 
-import { ChatBubbleLeftRightIcon, PlusIcon } from '@heroicons/react/24/outline'
 import Image from 'next/image'
 import Img from '@/../public/icon_nikoniko.png'
 import { Suspense, useState } from 'react'
-import { useSearchParams } from 'next/navigation'
 import { motion } from 'framer-motion'
 
 function Firstview_() {
