@@ -8,7 +8,7 @@ import { motion } from 'framer-motion'
 function Firstview_() {
 	return (
 		<>
-			<div className="bg-grid-teal-300 font-dancing bg-teal-50">
+			<div className="bg-grid-teal-300 bg-teal-50 font-zenmaru">
 				<div className="grid grid-cols-1 grid-rows-[auto_auto] md:grid-cols-3 md:grid-rows-1">
 					<div className="col-span-3 md:col-span-2">
 						<motion.h1

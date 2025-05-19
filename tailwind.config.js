@@ -40,7 +40,6 @@ module.exports = {
     extend: {
       fontFamily: {
         zenmaru: ['ZenMaruGothic', ...defaultTheme.fontFamily.sans],
-        dancing: ['DancingScript', ...defaultTheme.fontFamily.sans],
       },
       colors: {
         primary: {
