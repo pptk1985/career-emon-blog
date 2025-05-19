@@ -10,7 +10,7 @@ import { motion } from 'framer-motion'
 function Firstview_() {
 	return (
 		<>
-			<div className="bg-dot-teal-300 bg-teal-100 font-zenmaru">
+			<div className="bg-grid-teal-300 font-dancing bg-teal-50">
 				<div className="grid grid-cols-1 grid-rows-[auto_auto] md:grid-cols-3 md:grid-rows-1">
 					<div className="col-span-3 md:col-span-2">
 						<motion.h1
@@ -44,7 +44,7 @@ function Firstview_() {
 								className="mx-auto mb-1 max-w-sm bg-white p-1 text-center text-base leading-relaxed text-teal-700 drop-shadow-sm md:mb-2 md:leading-snug dark:text-white"
 							>
 								<span className="text-base font-bold drop-shadow-sm md:text-lg">
-									&quot;日本最大級&quot;のキャリア相談サイト
+									Career Blog
 								</span>
 							</motion.div>
 							<div className="text-3xl font-bold [text-shadow:_2px_3px_0_rgb(255_255_255_/_100%)] md:text-4xl">
