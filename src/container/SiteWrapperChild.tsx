@@ -7,7 +7,7 @@ import {
 } from '@/stores/viewer/viewerSlice'
 import { updateGeneralSettings } from '@/stores/general-settings/generalSettingsSlice'
 import ControlSettingsDemo from './ControlSettingsDemo'
-import CookiestBoxPopover from '@/components/CookiestBoxPopover'
+// import CookiestBoxPopover from '@/components/CookiestBoxPopover'
 import MusicPlayer from '@/components/MusicPlayer/MusicPlayer'
 import { initLocalPostsSavedListFromLocalstored } from '@/stores/localPostSavedList/localPostsSavedListSlice'
 import { usePathname } from 'next/navigation'
@@ -118,7 +118,7 @@ export function SiteWrapperChild({
 
 	return (
 		<div>
-			<CookiestBoxPopover />
+			{/* <CookiestBoxPopover /> */}
 			<ControlSettingsDemo />
 			<MusicPlayer />
 		</div>
