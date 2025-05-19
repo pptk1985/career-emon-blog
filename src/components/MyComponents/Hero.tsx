@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Img from '@/../public/icon_nikoniko.png'
 
 const Hero = () => {
 	return (
@@ -6,7 +7,7 @@ const Hero = () => {
 			<div className="grid grid-cols-2 items-center justify-center">
 				<div className="mx-auto">ヒーローセクション</div>
 				<Image
-					src="/icon_nikoniko.png"
+					src={Img}
 					alt="キャリエモンブログ"
 					width={200}
 					height={200}
