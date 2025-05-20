@@ -33,20 +33,20 @@
 	},
 	"site_info": {
 		"site_title": "キャリエモン ブログ",
-		"site_description": "Ncmaz Nextjs Blog headless WordPress",
-		"site_keywords": "Ncmaz Nextjs Blog",
-		"site_author": "ChisNghiax",
+		"site_description": "「キャリエモン」はプロのキャリアサポーターから「書類/ES添削」「就職相談」を無料で好きなだけ受けられるサービスです！就活や転職でお悩みの方はぜひご利用ください！",
+		"site_keywords": "",
+		"site_author": "UZUZ",
 		"site_email": "Your Email",
 		"site_phone": "Your Phone",
 		"site_address": "Your Address",
 		"site_city": "Your City",
 		"site_state": "Your State",
 		"site_zip": "Your Zip",
-		"site_country": "Your Country",
-		"site_url": "https://www.yoursite.com",
-		"site_logo": "/logo_face.png",
-		"site_logo_light": "/logo_face.png",
-		"site_favicon": "/favicon.png"
+		"site_country": "Japan",
+		"site_url": "https://career-emon.com/blog/",
+		"site_logo": "/blog/logo.png",
+		"site_logo_light": "/blog/logo.png",
+		"site_favicon": "/blog/favicon.ico"
 	},
 	"site_socials": [
 		{
@@ -78,7 +78,7 @@
 		"desktop_header": {
 			"header_style": "style3",
 			"hide_create_button": false,
-			"hide_dark_mode_switch": false
+			"hide_dark_mode_switch": true
 		}
 	},
 	"site_footer": {

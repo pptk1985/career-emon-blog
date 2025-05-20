@@ -52,9 +52,9 @@ export function Hero() {
 	return (
 		<div className="relative mx-auto my-4 flex w-full max-w-7xl flex-col items-center justify-center overflow-hidden rounded-xl font-zenmaru">
 			<h2 className="relative z-20 mx-2 max-w-4xl rounded-3xl bg-teal-300 bg-opacity-50 p-4 text-center text-4xl font-bold text-teal-700 [text-shadow:_2px_3px_0_rgb(255_255_255_/_100%)] md:p-8 md:text-5xl">
-				『キャリエモン』<span className="text-3xl md:text-4xl">なら</span>
+				『キャリエモン』<span className="text-3xl md:text-4xl">で</span>
 				<span className="mt-2 block text-3xl md:text-4xl">
-					無料でプロにキャリア相談できる！
+					無料でプロにキャリア相談してみよう！
 				</span>
 			</h2>
 			<p className="relative z-20 mx-2 max-w-2xl rounded-lg bg-white bg-opacity-50 p-4 text-center text-sm font-bold text-neutral-200 text-teal-700 md:text-base">
