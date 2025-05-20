@@ -51,20 +51,20 @@ export function Hero() {
 	]
 	return (
 		<div className="relative mx-auto my-4 flex w-full max-w-7xl flex-col items-center justify-center overflow-hidden rounded-xl font-zenmaru">
-			<h2 className="relative z-20 mx-auto max-w-4xl text-balance text-center text-4xl font-bold text-teal-700 [text-shadow:_2px_3px_0_rgb(255_255_255_/_100%)] md:text-5xl">
-				キャリエモンなら
+			<h2 className="relative z-20 mx-auto max-w-4xl text-balance rounded-3xl bg-teal-300 bg-opacity-65 p-6 text-center text-4xl font-bold text-teal-700 [text-shadow:_2px_3px_0_rgb(255_255_255_/_100%)] md:text-5xl">
+				「キャリエモン」<span className="text-3xl md:text-4xl">なら</span>
 				<span className="mt-2 block text-3xl md:text-4xl">
 					無料でプロにキャリア相談できる！
 				</span>
 			</h2>
-			<p className="relative z-20 mx-auto max-w-2xl bg-white bg-opacity-25 p-2 text-center text-sm font-bold text-neutral-200 text-teal-700 md:text-base">
+			<p className="relative z-20 mx-auto max-w-2xl rounded-lg bg-white bg-opacity-50 p-4 text-center text-sm font-bold text-neutral-200 text-teal-700 md:text-base">
 				キャリエモンはプロのキャリアサポーターから「書類/ES添削」や「就職/転職相談」を無料で好きなだけ受けられるサービスです。就活や転職で悩んでいる人は気軽に使ってみよう！
 			</p>
 
-			<div className="relative z-20 mb-4 flex flex-wrap items-center justify-center gap-4">
+			<div className="relative z-20 mb-8 flex flex-wrap items-center justify-center gap-4">
 				<Button
 					asChild
-					className="my-1 h-9 cursor-pointer rounded-sm bg-amber-300 px-2 py-0.5 text-[10px] font-semibold text-gray-700 no-underline hover:bg-amber-300 hover:opacity-80 sm:px-6 md:text-xs"
+					className="my-1 h-9 cursor-pointer rounded-sm bg-amber-300 px-2 py-0.5 text-xs font-semibold text-gray-700 no-underline hover:bg-amber-300 hover:opacity-80 sm:px-6 md:text-sm"
 				>
 					<Link href="https://career-emon.com/">
 						キャリエモンを利用してみる
@@ -72,7 +72,7 @@ export function Hero() {
 				</Button>
 				<Button
 					asChild
-					className="my-1 h-9 cursor-pointer rounded-sm bg-teal-600 px-2 py-0.5 text-[10px] font-semibold text-white no-underline hover:bg-teal-600 hover:opacity-80 sm:px-6 md:text-xs"
+					className="my-1 h-9 cursor-pointer rounded-sm bg-teal-600 px-2 py-0.5 text-xs font-semibold text-white no-underline hover:bg-teal-600 hover:opacity-80 sm:px-6 md:text-sm"
 				>
 					<Link href="https://career-emon.com/lp/">
 						キャリアサポートを申し込む
@@ -81,7 +81,7 @@ export function Hero() {
 			</div>
 
 			{/* overlay */}
-			<div className="absolute inset-0 z-10 w-full bg-teal-300/60" />
+			<div className="absolute inset-0 z-10 w-full bg-teal-300/50" />
 			<ThreeDMarquee
 				className="pointer-events-none absolute inset-0 h-full w-full"
 				images={images}
