@@ -8,7 +8,7 @@ import { FaustTemplate, flatListToHierarchical } from '@faustwp/core'
 import { FOOTER_LOCATION, PRIMARY_LOCATION } from '@/contains/menu'
 import PageLayout from '@/container/PageLayout'
 import MyWordPressBlockViewer from '@/components/MyWordPressBlockViewer'
-import Hero from '@/components/MyComponents/Hero'
+import { Hero } from '@/components/MyComponents/Hero/Hero'
 
 const Page: FaustTemplate<GetPageQuery> = (props) => {
 	// LOADING ----------
