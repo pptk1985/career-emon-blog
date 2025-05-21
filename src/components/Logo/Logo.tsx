@@ -18,25 +18,28 @@ const Logo: React.FC<LogoProps> = ({ className = '', imageClassName }) => {
 	}
 
 	return (
-		<Link
-			href="https://career-emon.com/"
-			className={`ttnc-logo inline-block flex-shrink-0 text-primary-600 ${className}`}
-		>
-			<MyImage
-				className={'block w-12 sm:w-14 dark:hidden ' + imageClassName}
-				src={logoSrc || ''}
-				alt={'Logo'}
-				width={56}
-				height={56}
-			/>
-			<MyImage
-				className={'hidden w-12 sm:w-14 dark:block ' + imageClassName}
-				src={logoLightSrc || ''}
-				alt={'Logo'}
-				width={56}
-				height={56}
-			/>
-		</Link>
+		<>
+			<Link
+				href="https://career-emon.com/blog/"
+				className={`ttnc-logo inline-block flex-shrink-0 text-primary-600 ${className}`}
+			>
+				<MyImage
+					className={'block w-12 sm:w-14 dark:hidden ' + imageClassName}
+					src={logoSrc || ''}
+					alt={'Logo'}
+					width={56}
+					height={56}
+				/>
+				<MyImage
+					className={'hidden w-12 sm:w-14 dark:block ' + imageClassName}
+					src={logoLightSrc || ''}
+					alt={'Logo'}
+					width={56}
+					height={56}
+				/>
+			</Link>
+			<Link href="https://career-emon.com/">本体へ本体へ本体へ</Link>
+		</>
 	)
 }
 

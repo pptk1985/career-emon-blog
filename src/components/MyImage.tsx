@@ -17,7 +17,7 @@ const MyImage: FC<Props> = ({
 			className={`${props.className} ${
 				props.src ? '' : 'dark:brightness-75 dark:filter'
 			}`}
-			src={props.src || '/images/placeholder.png'}
+			src={props.src || '/blog/images/placeholder.png'}
 		/>
 	)
 }

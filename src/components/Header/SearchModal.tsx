@@ -202,7 +202,7 @@ const SearchModal: FC<Props> = ({ renderTrigger, triggerClassName = '' }) => {
 											<ComboboxInput
 												autoFocus
 												className="h-12 w-full border-0 bg-transparent pe-4 ps-11 text-sm text-gray-900 placeholder:text-gray-400 focus:ring-0 dark:text-gray-100 dark:placeholder:text-gray-300"
-												placeholder={T['Type to search...']}
+												placeholder="ブログ内の検索"
 												onChange={_.debounce(handleSetSearchValue, 200)}
 												onBlur={() => setQuery('')}
 											/>
