@@ -19,7 +19,7 @@ const Logo: React.FC<LogoProps> = ({ className = '', imageClassName }) => {
 
 	return (
 		<>
-			<div className="leading-[1.2]">
+			<div className="pt-1">
 				<Link
 					href="https://career-emon.com/blog/"
 					className={`ttnc-logo inline-block flex-shrink-0 text-primary-600 ${className}`}
@@ -38,7 +38,7 @@ const Logo: React.FC<LogoProps> = ({ className = '', imageClassName }) => {
 						width={56}
 						height={56}
 					/>
-					<div className="bg-gradient-to-r from-teal-900 to-teal-600 bg-clip-text text-right font-zenmaru font-extrabold text-transparent drop-shadow-sm">
+					<div className="text- bg-gradient-to-r from-teal-900 to-teal-600 bg-clip-text text-center font-zenmaru text-sm font-extrabold text-transparent drop-shadow-sm sm:text-right sm:text-xl">
 						キャリアブログ
 					</div>
 				</Link>
