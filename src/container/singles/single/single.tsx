@@ -48,7 +48,7 @@ const SingleType1: FC<SingleType1Props> = ({ post, showRightSidebar }) => {
 				{!!hasFeaturedImage && (
 					<NcImage
 						alt={title}
-						containerClassName="container my-10 sm:my-12"
+						containerClassName="container my-10 sm:my-12 max-w-3xl"
 						className={`mx-auto rounded-xl ${
 							imgWidth <= 768 && ncPostMetaData?.showRightSidebar
 								? 'w-full max-w-screen-md'

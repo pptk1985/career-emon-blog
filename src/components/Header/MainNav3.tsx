@@ -53,7 +53,7 @@ const MainNav2: FC<MainNav2Props> = ({ menuItems, description, title }) => {
 							<SwitchDarkMode className="hidden self-center md:flex" />
 						)}
 						<SearchIconBtn className="lg:hidden" />
-						<AvatarDropdown className="self-center" />
+						{/* <AvatarDropdown className="self-center" /> */}
 					</div>
 				</div>
 			</div>
