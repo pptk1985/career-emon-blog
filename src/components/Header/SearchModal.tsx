@@ -264,7 +264,7 @@ const SearchModal: FC<Props> = ({ renderTrigger, triggerClassName = '' }) => {
 										{query === '' && (
 											<li className="p-2">
 												<h2 className="mb-2 mt-4 px-3 text-xs font-medium text-gray-500 dark:text-gray-300">
-													{T['Recommended searches']}
+													人気の検索
 												</h2>
 
 												<ul className="text-sm text-gray-700 dark:text-gray-300">

@@ -43,3 +43,6 @@ yarn-error.log*
 ## code editors
 .idea
 .vscode
+
+# files
+default-site-settings-do-not-edit-this-file.json

@@ -91,19 +91,19 @@
 	"search_page": {
 		"recommended_searches": {
 			"enable": true,
-			"title": "Recommended searches",
+			"title": "人気の検索",
 			"items": [
 				{
-					"title": "Programming",
-					"url": "/search/posts/programming"
+					"title": "ガクチカ",
+					"url": "/search/posts/ガクチカ"
 				},
 				{
-					"title": "Design",
-					"url": "/search/posts/design"
+					"title": "自己PR",
+					"url": "/search/posts/自己PR"
 				},
 				{
-					"title": "Technology",
-					"url": "/search/posts/technology"
+					"title": "志望動機",
+					"url": "/search/posts/志望動機"
 				}
 			]
 		},
@@ -208,7 +208,7 @@
 		}
 	},
 	"mobile_nav_sidebar": {
-		"description": "Discover the most outstanding articles on all topics of life. Write your stories and share them with the community. "
+		"description": "キャリエモンのブログメディアです。リアルな求職者の相談や質問をもとにした、実際の就活・転職で役立つノウハウ記事などを掲載しています。"
 	},
 	"help_page": {
 		"uri": "/helps",
