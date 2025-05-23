@@ -19,26 +19,30 @@ const Logo: React.FC<LogoProps> = ({ className = '', imageClassName }) => {
 
 	return (
 		<>
-			<Link
-				href="https://career-emon.com/blog/"
-				className={`ttnc-logo inline-block flex-shrink-0 text-primary-600 ${className}`}
-			>
-				<MyImage
-					className={'block w-12 sm:w-14 dark:hidden ' + imageClassName}
-					src={logoSrc || ''}
-					alt={'Logo'}
-					width={56}
-					height={56}
-				/>
-				<MyImage
-					className={'hidden w-12 sm:w-14 dark:block ' + imageClassName}
-					src={logoLightSrc || ''}
-					alt={'Logo'}
-					width={56}
-					height={56}
-				/>
-			</Link>
-			<Link href="https://career-emon.com/">本体へ本体へ本体へ</Link>
+			<div className="leading-[1.2]">
+				<Link
+					href="https://career-emon.com/blog/"
+					className={`ttnc-logo inline-block flex-shrink-0 text-primary-600 ${className}`}
+				>
+					<MyImage
+						className={'block w-36 sm:w-48 dark:hidden ' + imageClassName}
+						src={logoSrc || ''}
+						alt={'Logo'}
+						width={208}
+						height={56}
+					/>
+					<MyImage
+						className={'hidden w-14 sm:w-14 dark:block ' + imageClassName}
+						src={logoLightSrc || ''}
+						alt={'Logo'}
+						width={56}
+						height={56}
+					/>
+					<div className="bg-gradient-to-r from-teal-900 to-teal-600 bg-clip-text text-right font-zenmaru font-extrabold text-transparent drop-shadow-sm">
+						キャリアブログ
+					</div>
+				</Link>
+			</div>
 		</>
 	)
 }
